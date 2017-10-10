@@ -1,5 +1,8 @@
 html {
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
+  background: repeating-linear-gradient(to top left, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  border-top: 10px #b3fbff solid;
+  border-bottom: 10px #b3fbff solid;
 }
 
 h1 {
@@ -15,11 +18,11 @@ a {
   text-decoration: none;
 }
 
-.btn {
+.btn-ghost {
   border-color: #990073;
 }
 
-.btn:hover {
+.btn-ghost:hover {
   background-color: #d4fdff;
   border-color: #990073;
 }
