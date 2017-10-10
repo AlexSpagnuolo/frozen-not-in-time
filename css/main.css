@@ -1,3 +1,25 @@
 html {
   font-family: "Fredoka One", cursive;
 }
+
+h1 {
+  color: #990073;
+}
+
+p {
+  color: #c09;
+}
+
+a {
+  color: #c09;
+  text-decoration: none;
+}
+
+.btn {
+  border-color: #990073;
+}
+
+.btn:hover {
+  background-color: #d4fdff;
+  border-color: #990073;
+}
