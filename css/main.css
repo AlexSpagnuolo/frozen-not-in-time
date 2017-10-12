@@ -2,20 +2,28 @@ html {
   font-family: "Fredoka One", sans-serif;
   background: repeating-linear-gradient(to top left, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   border-top: 10px #b3fbff solid;
-  border-bottom: 10px #b3fbff solid;
 }
 
 h1 {
   color: #990073;
+  transform: rotate(-10.5deg);
+  text-shadow: 1px 1px rgba(0, 0, 0, .2);
+  left: 50px;
+  top: 70px;
 }
 
 p {
   color: #c09;
+  max-width: 19em;
+  transform: rotate(-5.5deg);
+  text-shadow: 1px 1px rgba(0, 0, 0, .2);
+  margin-top: 3.5em;
 }
 
 a {
   color: #c09;
   text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, .2);
 }
 
 .btn-ghost {
@@ -25,4 +33,99 @@ a {
 .btn-ghost:hover {
   background-color: #d4fdff;
   border-color: #990073;
+}
+
+.cherry {
+  animation: cherry-drop .5s linear forwards;
+  width: 180px;
+  z-index: 5;
+  left: 65px;
+}
+
+@keyframes cherry-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: -45px
+  }
+
+}
+
+.vanilla {
+  animation: vanilla-drop .5s linear forwards;
+  width: 180px;
+  z-index: 4;
+  left: 60px;
+}
+
+@keyframes vanilla-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 35px;
+  }
+
+}
+
+.chocolate {
+  animation: chocolate-drop .5s linear forwards;
+  width: 180px;
+  z-index: 3;
+  left: 75px;
+}
+
+@keyframes chocolate-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 110px;
+  }
+
+}
+
+.mint {
+  animation: mint-drop .5s linear forwards;
+  width: 180px;
+  z-index: 1;
+  left: 70px;
+}
+
+@keyframes mint-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 190px;
+  }
+
+}
+
+.cone {
+  animation: cone-drop .5s linear forwards;
+  width: 180px;
+  z-index: 2;
+  left: 70px;
+}
+
+@keyframes cone-drop {
+
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 300px;
+  }
+
 }
