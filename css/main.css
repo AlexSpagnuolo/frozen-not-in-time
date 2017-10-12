@@ -51,7 +51,7 @@ a {
   }
 
   100% {
-    top: -45px
+    top: -45px;
   }
 
 }
@@ -135,6 +135,29 @@ a {
 
   100% {
     top: 300px;
+  }
+
+}
+
+.text {
+  animation: text-appear .5s linear forwards;
+  animation-delay: 2.5s;
+  opacity: 0;
+}
+
+@keyframes text-appear {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 100;
+    filter: blur(0);
   }
 
 }
